@@ -2,5 +2,9 @@
   "name": "img-and-src",
   "version": "1.0",
   "description": "For images in markdown please.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "manifest_version": 2
 }
