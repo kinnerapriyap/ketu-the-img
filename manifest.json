@@ -2,7 +2,7 @@
   "name": "img-and-src",
   "version": "1.0",
   "description": "For images in markdown please.",
-  "permissions": ["declarativeContent", "storage"],
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
