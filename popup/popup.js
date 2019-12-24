@@ -1,10 +1,10 @@
-let changeColor = document.getElementById("changeColor");
+let replaceImg = document.getElementById("replaceImg");
 
-chrome.storage.sync.get("color", function(data) {
-  changeColor.style.backgroundColor = data.color;
-  changeColor.setAttribute("value", data.color);
+chrome.storage.sync.get("width", function(data) {
+  replaceImg.style.backgroundColor = data.color;
+  replaceImg.setAttribute("value", data.color);
 });
-changeColor.onclick = function(element) {
+replaceImg.onclick = function(element) {
   let color = element.target.value;
   chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
     chrome.tabs.executeScript(tabs[0].id, {
