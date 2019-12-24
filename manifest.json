@@ -22,9 +22,5 @@
     "48": "images/img48.png",
     "128": "images/img128.png"
   },
-  "options_ui": {
-    "page": "options/options.html",
-    "open_in_tab": false
-  },
   "manifest_version": 2
 }
