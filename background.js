@@ -7,7 +7,8 @@ chrome.runtime.onInstalled.addListener(function() {
       {
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { urlContains: "github.com" }
+            pageUrl: { urlContains: "github.com" },
+            css: ["textarea"]
           })
         ],
         actions: [new chrome.declarativeContent.ShowPageAction()]
