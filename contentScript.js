@@ -5,7 +5,7 @@ chrome.storage.sync.get(['width'], function(result) {
   console.log("Get width input", "width", result.width);
   textAreas.forEach(function(textArea) {
     var defaultPatt = /\!\[(\w+)\]\((\w+)\)/gm;
-    var newPatt = '<img src="$1" width=' + imageWidth + ' />';
+    var newPatt = '<img src="$2" width=' + imageWidth + ' />';
     textArea.value = textArea.value.replace(defaultPatt, newPatt);
   });
 });
