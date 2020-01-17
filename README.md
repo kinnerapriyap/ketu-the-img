@@ -5,6 +5,14 @@ Now use this chrome-extension to simplify your PR process...
 
 [![ketu-the-image-demo-gif](ketu-the-image-demo.gif)](https://vimeo.com/385396327)
 
+### Download
+
+1. Go to Chrome Extensions management: [chrome://extensions](chrome://extensions)
+2. Toggle button in top-Add right corner to enable Developer mode
+3. Download [`ketu-the-img.crx`](ketu-the-img.crx)
+4. Drag and drop the `.crx` file onto the extensions page
+5. Install by clicking on Add extension in the popup shown
+
 ### Usage 
 
 Currently, this chrome extension is activated only for Github.
