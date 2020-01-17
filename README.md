@@ -3,7 +3,7 @@
 Do you find yourself copy-pasting img tag and width attributes to replace default uploaded screenshot/image markdown in Github PRs?
 Now use this chrome-extension to simplify your PR process...
 
-[![ketu-the-image-demo-gif](images/ketu-the-image-demo.gif)](https://vimeo.com/385396327)
+[![ketu-the-image-demo-gif](ketu-the-image-demo.gif)](https://vimeo.com/385396327)
 
 ### Usage 
 
@@ -17,4 +17,4 @@ This extension can also be used to replace multiple images with img tag in GitHu
 
 ### Credits
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
