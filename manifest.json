@@ -3,6 +3,7 @@
   "version": "1.0",
   "description": "For images in markdown please.",
   "permissions": ["activeTab", "declarativeContent", "storage"],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
