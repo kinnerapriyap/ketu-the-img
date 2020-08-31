@@ -5,7 +5,13 @@ Now use this chrome-extension to simplify your PR process...
 
 [![ketu-the-image-demo-gif](ketu-the-image-demo.gif)](https://vimeo.com/385396327)
 
-### Download
+### Download 
+
+#### From chrome web store
+
+Download [ Ketu the image! on the web store here](https://chrome.google.com/webstore/detail/ketu-the-image/cfaiodgiaecemdaehdgnnopjeidfogid/).
+
+#### For development
 
 1. Go to Chrome Extensions management: [chrome://extensions](chrome://extensions)
 2. Toggle button in top-right corner to enable Developer mode
