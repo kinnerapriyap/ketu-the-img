@@ -25,4 +25,7 @@ This extension can also be used to replace multiple images with img tag in GitHu
 
 ### Credits
 
+#### Named after
+In Vedic astrology, one of [Ketu](https://en.wikipedia.org/wiki/Ketu_(mythology))'s duties is moksha -> freedom from the cycle of life. I figured freedom from the cycle of copy-pasting the <img> tag every time could be one of those things Ketu is responsible for.
+
 Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
