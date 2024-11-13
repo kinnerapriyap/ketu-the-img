@@ -1,8 +1,5 @@
 chrome.runtime.onInstalled.addListener(() => {
-  let value = 300;
-  chrome.storage.sync.set({width: value}, () => {
-    console.log("Default width", value);
-  });
+  chrome.storage.sync.set({width: 300, alt: ""});
   chrome.declarativeContent.onPageChanged.removeRules(undefined, () => {
     chrome.declarativeContent.onPageChanged.addRules([
       {
