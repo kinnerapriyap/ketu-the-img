@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <style>
       button {
@@ -8,16 +8,26 @@
         outline: none;
         background: #ffde55;
         font-size: 1em;
+        border: none;
+        border-radius: 4px; /* Rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Elevation */
+        transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+      }
+      button:hover {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Increased elevation on hover */
       }
       div {
         margin-bottom: 1em;
       }
     </style>
+    <title>Ketu the image!</title>
   </head>
   <body>
     <div>
-      <span>Width</span>
-      <input type="number" id="img-width" value="300" />
+      <label for="img-width">Width <input type="number" id="img-width" value="300" /></label>
+    </div>
+    <div>
+      <label for="img-alt">Alt text <input type="text" id="img-alt" value="" /></label>
     </div>
     <button id="replace-img">Replace with img src</button>
     <script src="popup.js"></script>
