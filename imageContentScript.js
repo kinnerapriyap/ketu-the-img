@@ -1,4 +1,4 @@
-const textAreas = document.querySelectorAll("textArea[name*='[body]']");
+const textAreas = document.querySelectorAll("textArea");
 let imageWidth = 300;
 chrome.storage.sync.get(['width'], function(result) {
   imageWidth = result.width
