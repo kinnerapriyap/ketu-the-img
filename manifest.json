@@ -2,7 +2,12 @@
   "name": "Ketu the image!",
   "version": "1.0",
   "description": "For images in markdown please.",
-  "permissions": ["activeTab", "declarativeContent", "storage", "scripting"],
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "scripting"
+  ],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   },

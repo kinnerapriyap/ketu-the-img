@@ -1,6 +1,6 @@
 chrome.runtime.onInstalled.addListener(() => {
   let value = 300;
-  chrome.storage.sync.set({ width: value }, () => {
+  chrome.storage.sync.set({width: value}, () => {
     console.log("Default width", value);
   });
   chrome.declarativeContent.onPageChanged.removeRules(undefined, () => {
@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(() => {
       {
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { urlContains: "github.com" },
+            pageUrl: {urlContains: "github.com"},
             css: ["textarea"]
           })
         ],
